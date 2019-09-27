@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Journal</title>
+  <script src="https://kit.fontawesome.com/a83dba7890.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper__app">
+    <div id="app">
+      <div class="holder headline">
+        <h1 class="headline__heading">Weather Journal App</h1>
+      </div>
+      <form class="app__form" autocomplete="off">
+        <div class="holder zip">
+          <!-- as I did translate effect on labels I moved placeholder value 'enter zip code' to label -->
+          <input type="text" id="zip" maxlength="10" required="" placeholder="">
+          <label for="zip" class="zip__label">enter zip code here (US only)</label>
+        </div>
+        <div class="holder feel">
+          <textarea class="feel__input" id="feelings" maxlength="35" required=""></textarea>
+          <label for="feelings">how are you feeling today?</label>
+        </div>
+        <button id="generate" type="submit"> Generate </button>
+      </form>
+      <div class="holder entry">
+        <h2 class="entry__title">Most Recent Entry</h2>
+        <div id="entryHolder">
+          <div class="entry__date">
+            <i class="fas fa-calendar-day entry__icon"></i>
+            <!-- content in this div is updated dynamically-->
+            <div id="date"></div>
+          </div>
+          <div class="entry__temp">
+            <i class="fas fa-thermometer-half entry__icon"></i>
+            <!-- content in this div is updated dynamically-->
+            <div id="temp"></div>
+          </div>
+          <div class="entry__content">
+            <i class="fas fa-user-circle entry__icon"></i>
+            <!-- content in this div is updated dynamically-->
+            <div id="content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" type="text/javascript"></script>
+  <!-- <script src="server.js" type="text/javascript"></script> -->
+
+</body>
+
+</html>
