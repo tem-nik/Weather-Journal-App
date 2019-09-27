@@ -1,4 +1,4 @@
-# Weather Journal App
+# Weather Journal App :umbrella:
 
 ## Project 3 - Weather App (Front End Developer Udacity Nanodegree)
 ### created with HTML, CSS, Javascript (Vanilla), Node.js
