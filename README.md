@@ -1,6 +1,6 @@
 # Weather Journal App :umbrella:
 
-## Project 3 - News Article NLP (Front End Developer Udacity Nanodegree)
+## Project 3 - Weather Journal App (Front End Developer Udacity Nanodegree)
 #### What I used: HTML, CSS, Javascript (Vanilla)
 
 
